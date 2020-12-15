@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Scorekeeper Game</title>
+        
+        <link rel = "stylesheet" href = "../css/style.css">
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+        <img src = "../img/images.jpg" alt = "Mesa de ping pong com duas raquetes" id = "img-mesa">
+        </div>
+        <div class = "border" id = "borda-img">
+            <p>Ping Pong Scorekeeper</p>
+        </div>
+        <div class = "border" id = "pontuacao">
+            <h2><span id = "jogador1Pontuacao">0</span> to <span id = "jogador2Pontuacao">0</span></h2>
+            <p>Use the buttons below to keep score</p>
+        </div>
+        <div class = "border" id = "pontuacaoMax">
+            <h5>Playing to </h5>
+            <select name="" id="playTo">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="border" id = "botoes">
+            <button type="button" id="button1" class="btn btn-success">+1 Player One</button>
+            <button type="button" id="button2" class="btn btn-primary">+1 Player Two</button>
+            <button type="button" id="button3" class="btn btn-danger">Reset</button>
+        </div>
+        <script src = "../js/script.js"></script>
+    </body>
+</html>

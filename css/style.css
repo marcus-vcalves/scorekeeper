@@ -1,0 +1,48 @@
+#img-mesa {
+    padding-top:30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+#borda-img{
+    border: 3px solid white;
+    border-style:ridge;
+    width:30.1%;
+    margin: auto;
+}
+#borda-img p{
+    font-weight: 500;
+}
+#pontuacao{
+    border: 3px solid white;
+    border-style:ridge;
+    width:30.1%;
+    margin: auto;
+}
+#pontuacaoMax{
+    border: 3px solid white;
+    border-style:ridge;
+    width:30.1%;
+    margin: auto;
+    
+}
+#botoes{
+    border: 3px solid white;
+    border-style:ridge;
+    width:30.1%;
+    margin: auto;
+}
+#button1 , #button2, #button3 {
+    display:inline-block;
+    width:32.61%;
+    }
+h5, select{
+    display:inline;
+}
+.winner{
+    color:green;
+}
+.loser{
+    color:red;
+}
